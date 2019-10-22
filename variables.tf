@@ -10,3 +10,7 @@ variable "name" {
 variable "tags" {
   description = "Environment tag for the resource group (i.e. 'Production')"
 }
+variable subscription_id {}
+variable client_id {}
+variable client_secret {}
+variable tenant_id {}
